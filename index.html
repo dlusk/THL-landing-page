@@ -9,6 +9,9 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Oswald' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/styles.css">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     </head>
@@ -17,20 +20,65 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <header class="header">
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        	<div class="top-wrap">
+        		<div class="top">
+        			<div class="logo"><img src="images/kroger.png" alt="Kroger Cruelty"></div>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+	        	<div class="social-bar">
+	        		<span class="social-bar__title">Share:</span>
+	        		<ul class="social-bar__icons">
+	        			<li class="social-bar__icon fb"><a href="#" class="icon"><img src="images/fb-icon.png" alt=""></a></li>
+	        			<li class="social-bar__icon tw"><a href="#" class="icon"><img src="images/tw-icon.png" alt=""></a></li>
+	        		</ul>
+	        	</div>
+
+						<nav class="nav-bar">
+							<ul class="nav-list">
+								<li class="nav-list__item"><a href="#what-cody-saw" class="nav-link">Watch the Video</a></li>
+								<li class="nav-list__item"><a href="#mail" class="nav-link">Email Kroger</a></li>
+							</ul>
+						</nav>
+        		</div>
+					</div>
+
+					<div class="video" id="what-cody-saw">
+
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/7FhHgYjymNU" frameborder="0" allowfullscreen></iframe>
+
+						<div class="video__share">
+							<span class="video__share__header">Share the Video</span>
+							<ul class="video__share__list">
+								<li class="video__share__list--item"><a href="#" class="icon"><img src="images/fb-icon.png" alt=""></a></li>
+								<li class="video__share__list--item"><a href="#" class="icon"><img src="images/tw-icon.png" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+
+        </header>
+
+        <div class="divider"></div>
+
+        <section class="message">
+        	<div class="message__box">
+        		<h2 class="message__box--header">Kroger Supports Animal Cruelty</h2>
+        		<p>Kroger sources nearly 85% of its eggs from farms where hens are confined in tiny, filthy cages. These hens can hardly move; they can’t even spread a wing, and they are often forced to stand on their dead cagemates. Despite nearly every major fast food restaurant, manufacturer, and food-service provider committing to eliminate cages, Kroger is still dragging its feet on this issue.</p>
+        	</div>
+        </section>
+
+        <section class="mail-ceo" id="mail">
+        	<div class="mail-ceo__header">
+        		<h1 class="mail-ceo__header--copy">Email Kroger&apos;s CEO Now</h1>
+        	</div>
+        	<div class="mail-ceo__content">
+        		<p class="mail-ceo__content--copy">Tell the CEO of Kroger, Rodney McMullen, that keeping animals locked in tiny cages is not okay.</p>
+        		<div class="mail-ceo__content__email">
+        			<p class="mail-ceo__content__email--copy">Mr. McMullen,<br>After learning about where Kroger sources the majority of its eggs from, I will no longer be shopping at Kroger or any of its subsidiaries. The practice of caging egg-laying hens is incredibly cruel and I will have nothing to do with a company that refuses to change its policies to address it. Many other companies are moving away from cages, such as McDonald&apos;s, Denny&apos;s, and even grocery stores like Target and Costco. It is time to release a firm commitment and timeline to completely eliminate the use of cages in the Kroger&apos;s egg supply chain!</p>
+        			<a href="mailto:agunn@thehumaneleague.com" class="mail-ceo__content__button button" target="_blank">Send Email to Kroger</a>
+        		</div>
+
+        	</div>
+        </section>
     </body>
 </html>

@@ -1,0 +1,220 @@
+/* line 3, ../sass/styles.scss */
+ul,
+li {
+  list-style: none;
+  padding: 0; }
+
+/* line 9, ../sass/styles.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0; }
+
+/* line 20, ../sass/styles.scss */
+a {
+  color: #000;
+  text-decoration: none; }
+
+/* line 25, ../sass/styles.scss */
+html {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  height: auto;
+  min-height: 100%; }
+
+/* line 33, ../sass/styles.scss */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 37, ../sass/styles.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 42, ../sass/styles.scss */
+h1,
+h2 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase; }
+
+/* line 48, ../sass/styles.scss */
+.header {
+  background: url("../images/video-bg.jpg");
+  padding-bottom: 1em;
+  position: relative; }
+
+/* line 54, ../sass/styles.scss */
+.top-wrap {
+  float: left;
+  height: 11em;
+  width: 100%; }
+
+/* line 60, ../sass/styles.scss */
+.top {
+  background: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  width: 100%; }
+
+/* line 66, ../sass/styles.scss */
+.logo {
+  position: fixed;
+  top: 1.8em;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1; }
+  /* line 73, ../sass/styles.scss */
+  .logo img {
+    max-width: 145px;
+    -webkit-filter: drop-shadow(12px 12px 25px rgba(0, 0, 0, 0.5));
+    filter: url(#drop-shadow); }
+
+/* line 80, ../sass/styles.scss */
+.social-bar {
+  color: #fff;
+  text-align: right;
+  width: 60%;
+  margin: 0 auto; }
+  /* line 86, ../sass/styles.scss */
+  .social-bar__title {
+    display: inline-block;
+    margin-right: 0.5rem; }
+  /* line 91, ../sass/styles.scss */
+  .social-bar__icons {
+    display: inline-block; }
+  /* line 95, ../sass/styles.scss */
+  .social-bar__icon {
+    display: inline-block; }
+    /* line 98, ../sass/styles.scss */
+    .social-bar__icon:first-of-type {
+      margin-right: .3rem; }
+
+/* line 104, ../sass/styles.scss */
+.icon {
+  display: inline-block; }
+  /* line 107, ../sass/styles.scss */
+  .icon img {
+    vertical-align: middle; }
+
+/* line 112, ../sass/styles.scss */
+.nav-bar {
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  top: 3.9em; }
+
+/* line 119, ../sass/styles.scss */
+.nav-list {
+  margin: 1em, 0;
+  text-align: center; }
+  /* line 123, ../sass/styles.scss */
+  .nav-list__item {
+    display: inline-block; }
+    /* line 126, ../sass/styles.scss */
+    .nav-list__item:first-of-type {
+      margin-right: 12em; }
+
+/* line 132, ../sass/styles.scss */
+.video {
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  width: 562px; }
+  /* line 138, ../sass/styles.scss */
+  .video iframe {
+    margin-bottom: -5px; }
+  /* line 142, ../sass/styles.scss */
+  .video__share {
+    background: #ec272a; }
+    /* line 145, ../sass/styles.scss */
+    .video__share__header {
+      display: inline-block;
+      font-size: 1.7rem;
+      font-family: 'Oswald', sans-serif;
+      margin-right: .4rem;
+      text-transform: uppercase; }
+    /* line 153, ../sass/styles.scss */
+    .video__share__list {
+      display: inline-block; }
+      /* line 156, ../sass/styles.scss */
+      .video__share__list--item {
+        display: inline-block; }
+        /* line 159, ../sass/styles.scss */
+        .video__share__list--item img {
+          vertical-align: baseline; }
+
+/* line 167, ../sass/styles.scss */
+.divider {
+  float: left;
+  height: 1em;
+  width: 100%;
+  background: #fff; }
+
+/* line 174, ../sass/styles.scss */
+.message {
+  background: url("../images/hens.jpg");
+  float: left;
+  width: 100%; }
+  /* line 179, ../sass/styles.scss */
+  .message__box {
+    width: 43%;
+    margin: 8em auto;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    padding: 1em; }
+
+/* line 190, ../sass/styles.scss */
+.mail-ceo {
+  float: left;
+  padding-bottom: 5em; }
+  /* line 194, ../sass/styles.scss */
+  .mail-ceo__header {
+    font-size: .9em;
+    padding: .2em 0;
+    background: #ec272a;
+    text-align: center; }
+    /* line 200, ../sass/styles.scss */
+    .mail-ceo__header--copy {
+      color: #fff; }
+  /* line 205, ../sass/styles.scss */
+  .mail-ceo__content {
+    padding: 1em 0;
+    width: 57%;
+    margin: 0 auto; }
+    /* line 210, ../sass/styles.scss */
+    .mail-ceo__content--copy {
+      font-weight: bold;
+      text-align: center; }
+    /* line 215, ../sass/styles.scss */
+    .mail-ceo__content__email {
+      width: 77%;
+      margin: 1em auto;
+      background: #f0f0f1;
+      padding: 2em;
+      text-align: center; }
+      /* line 222, ../sass/styles.scss */
+      .mail-ceo__content__email--copy {
+        margin-bottom: 1em;
+        text-align: left; }
+    /* line 228, ../sass/styles.scss */
+    .mail-ceo__content__button {
+      color: #fff;
+      background: #000;
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.4rem;
+      padding: 0.4em;
+      display: inline-block;
+      margin: 0 auto;
+      text-transform: uppercase; }
+      /* line 238, ../sass/styles.scss */
+      .mail-ceo__content__button:hover {
+        background-color: #fff;
+        border: 1px solid #000;
+        color: #000; }
