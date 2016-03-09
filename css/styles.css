@@ -101,7 +101,7 @@ h2 {
   display: inline-block; }
   /* line 109, ../sass/styles.scss */
   .icon img {
-    vertical-align: middle; }
+    vertical-align: bottom; }
 
 /* line 114, ../sass/styles.scss */
 .nav-bar {
