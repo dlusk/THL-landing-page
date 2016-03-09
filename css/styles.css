@@ -79,7 +79,7 @@ h2 {
   color: #fff;
   text-align: right;
   width: 60%;
-  margin: 0 auto; }
+  margin: 0 auto 7px auto; }
   /* line 86, ../sass/styles.scss */
   .social-bar__title {
     display: inline-block;
