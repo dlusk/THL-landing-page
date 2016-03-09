@@ -104,63 +104,65 @@ h2 {
 /* line 112, ../sass/styles.scss */
 .nav-bar {
   background: #fff;
+  font-family: 'Oswald', sans-serif;
   position: fixed;
   width: 100%;
-  top: 3.9em; }
+  top: 3.9em;
+  text-transform: uppercase; }
 
-/* line 119, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 .nav-list {
   margin: 1em, 0;
   text-align: center; }
-  /* line 123, ../sass/styles.scss */
+  /* line 125, ../sass/styles.scss */
   .nav-list__item {
     display: inline-block; }
-    /* line 126, ../sass/styles.scss */
+    /* line 128, ../sass/styles.scss */
     .nav-list__item:first-of-type {
       margin-right: 12em; }
 
-/* line 132, ../sass/styles.scss */
+/* line 134, ../sass/styles.scss */
 .video {
   color: #fff;
   margin: 0 auto;
   text-align: center;
   width: 562px; }
-  /* line 138, ../sass/styles.scss */
+  /* line 140, ../sass/styles.scss */
   .video iframe {
     margin-bottom: -5px; }
-  /* line 142, ../sass/styles.scss */
+  /* line 144, ../sass/styles.scss */
   .video__share {
     background: #ec272a; }
-    /* line 145, ../sass/styles.scss */
+    /* line 147, ../sass/styles.scss */
     .video__share__header {
       display: inline-block;
       font-size: 1.7rem;
       font-family: 'Oswald', sans-serif;
       margin-right: .4rem;
       text-transform: uppercase; }
-    /* line 153, ../sass/styles.scss */
+    /* line 155, ../sass/styles.scss */
     .video__share__list {
       display: inline-block; }
-      /* line 156, ../sass/styles.scss */
+      /* line 158, ../sass/styles.scss */
       .video__share__list--item {
         display: inline-block; }
-        /* line 159, ../sass/styles.scss */
+        /* line 161, ../sass/styles.scss */
         .video__share__list--item img {
           vertical-align: baseline; }
 
-/* line 167, ../sass/styles.scss */
+/* line 169, ../sass/styles.scss */
 .divider {
   float: left;
   height: 1em;
   width: 100%;
   background: #fff; }
 
-/* line 174, ../sass/styles.scss */
+/* line 176, ../sass/styles.scss */
 .message {
   background: url("../images/hens.jpg");
   float: left;
   width: 100%; }
-  /* line 179, ../sass/styles.scss */
+  /* line 181, ../sass/styles.scss */
   .message__box {
     width: 43%;
     margin: 8em auto;
@@ -170,40 +172,40 @@ h2 {
     border-radius: 6px;
     padding: 1em; }
 
-/* line 190, ../sass/styles.scss */
+/* line 192, ../sass/styles.scss */
 .mail-ceo {
   float: left;
   padding-bottom: 5em; }
-  /* line 194, ../sass/styles.scss */
+  /* line 196, ../sass/styles.scss */
   .mail-ceo__header {
     font-size: .9em;
     padding: .2em 0;
     background: #ec272a;
     text-align: center; }
-    /* line 200, ../sass/styles.scss */
+    /* line 202, ../sass/styles.scss */
     .mail-ceo__header--copy {
       color: #fff; }
-  /* line 205, ../sass/styles.scss */
+  /* line 207, ../sass/styles.scss */
   .mail-ceo__content {
     padding: 1em 0;
     width: 57%;
     margin: 0 auto; }
-    /* line 210, ../sass/styles.scss */
+    /* line 212, ../sass/styles.scss */
     .mail-ceo__content--copy {
       font-weight: bold;
       text-align: center; }
-    /* line 215, ../sass/styles.scss */
+    /* line 217, ../sass/styles.scss */
     .mail-ceo__content__email {
       width: 77%;
       margin: 1em auto;
       background: #f0f0f1;
       padding: 2em;
       text-align: center; }
-      /* line 222, ../sass/styles.scss */
+      /* line 224, ../sass/styles.scss */
       .mail-ceo__content__email--copy {
         margin-bottom: 1em;
         text-align: left; }
-    /* line 228, ../sass/styles.scss */
+    /* line 230, ../sass/styles.scss */
     .mail-ceo__content__button {
       color: #fff;
       background: #000;
@@ -213,7 +215,7 @@ h2 {
       display: inline-block;
       margin: 0 auto;
       text-transform: uppercase; }
-      /* line 238, ../sass/styles.scss */
+      /* line 240, ../sass/styles.scss */
       .mail-ceo__content__button:hover {
         background-color: #fff;
         border: 1px solid #000;
