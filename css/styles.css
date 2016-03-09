@@ -160,9 +160,10 @@ h2 {
 /* line 176, ../sass/styles.scss */
 .message {
   background: url("../images/hens.jpg");
+  background-attachment: fixed;
   float: left;
   width: 100%; }
-  /* line 181, ../sass/styles.scss */
+  /* line 182, ../sass/styles.scss */
   .message__box {
     width: 43%;
     margin: 8em auto;
@@ -172,40 +173,40 @@ h2 {
     border-radius: 6px;
     padding: 1em; }
 
-/* line 192, ../sass/styles.scss */
+/* line 193, ../sass/styles.scss */
 .mail-ceo {
   float: left;
   padding-bottom: 5em; }
-  /* line 196, ../sass/styles.scss */
+  /* line 197, ../sass/styles.scss */
   .mail-ceo__header {
     font-size: .9em;
     padding: .2em 0;
     background: #ec272a;
     text-align: center; }
-    /* line 202, ../sass/styles.scss */
+    /* line 203, ../sass/styles.scss */
     .mail-ceo__header--copy {
       color: #fff; }
-  /* line 207, ../sass/styles.scss */
+  /* line 208, ../sass/styles.scss */
   .mail-ceo__content {
     padding: 1em 0;
     width: 57%;
     margin: 0 auto; }
-    /* line 212, ../sass/styles.scss */
+    /* line 213, ../sass/styles.scss */
     .mail-ceo__content--copy {
       font-weight: bold;
       text-align: center; }
-    /* line 217, ../sass/styles.scss */
+    /* line 218, ../sass/styles.scss */
     .mail-ceo__content__email {
       width: 77%;
       margin: 1em auto;
       background: #f0f0f1;
       padding: 2em;
       text-align: center; }
-      /* line 224, ../sass/styles.scss */
+      /* line 225, ../sass/styles.scss */
       .mail-ceo__content__email--copy {
         margin-bottom: 1em;
         text-align: left; }
-    /* line 230, ../sass/styles.scss */
+    /* line 231, ../sass/styles.scss */
     .mail-ceo__content__button {
       color: #fff;
       background: #000;
@@ -215,7 +216,7 @@ h2 {
       display: inline-block;
       margin: 0 auto;
       text-transform: uppercase; }
-      /* line 240, ../sass/styles.scss */
+      /* line 241, ../sass/styles.scss */
       .mail-ceo__content__button:hover {
         background-color: #fff;
         border: 1px solid #000;
